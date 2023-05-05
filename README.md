@@ -5,7 +5,7 @@ Code running API for LPA
 function send_code_to_run (body, language) {
   var formData = {
     'code_body': body,
-    'language' : "perl"
+    'language' : language
   };
   var options = {
     'method' : 'post',
